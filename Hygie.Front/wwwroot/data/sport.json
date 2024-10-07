@@ -1,0 +1,6 @@
+﻿namespace Hygie.Front.wwwroot.data
+{
+    public class sport
+    {
+    }
+}
