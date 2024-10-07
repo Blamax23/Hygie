@@ -6,4 +6,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <None Remove="Views\Quiz\" />
+    <None Remove="Views\Apropos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Quiz\" />
+    <Folder Include="Views\Apropos\" />
+  </ItemGroup>
 </Project>
