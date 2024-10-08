@@ -16,4 +16,8 @@
     <Folder Include="Views\Quiz\" />
     <Folder Include="Views\Apropos\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hygie.Back\Hygie.Back.csproj" />
+    <ProjectReference Include="..\Hygie.Model\Hygie.Model.csproj" />
+  </ItemGroup>
 </Project>

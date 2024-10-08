@@ -1,5 +1,8 @@
+using Hygie.Back.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddSingleton<QuizService>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

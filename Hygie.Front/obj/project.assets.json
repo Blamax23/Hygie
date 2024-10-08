@@ -1,44 +1,101 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Hygie.Back/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Hygie.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Hygie.Back.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hygie.Back.dll": {}
+        }
+      },
+      "Hygie.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Hygie.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hygie.Model.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Hygie.Back/1.0.0": {
+      "type": "project",
+      "path": "../Hygie.Back/Hygie.Back.csproj",
+      "msbuildProject": "../Hygie.Back/Hygie.Back.csproj"
+    },
+    "Hygie.Model/1.0.0": {
+      "type": "project",
+      "path": "../Hygie.Model/Hygie.Model.csproj",
+      "msbuildProject": "../Hygie.Model/Hygie.Model.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Hygie.Back >= 1.0.0",
+      "Hygie.Model >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "/Users/williamquesnot/.nuget/packages/": {}
+    "C:\\Users\\Maxim\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/williamquesnot/Desktop/Hygie/Hygie.Front/Hygie.Front.csproj",
+      "projectUniqueName": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Front\\Hygie.Front.csproj",
       "projectName": "Hygie.Front",
-      "projectPath": "/Users/williamquesnot/Desktop/Hygie/Hygie.Front/Hygie.Front.csproj",
-      "packagesPath": "/Users/williamquesnot/.nuget/packages/",
-      "outputPath": "/Users/williamquesnot/Desktop/Hygie/Hygie.Front/obj/",
+      "projectPath": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Front\\Hygie.Front.csproj",
+      "packagesPath": "C:\\Users\\Maxim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Front\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/williamquesnot/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.314/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Back\\Hygie.Back.csproj": {
+              "projectPath": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Back\\Hygie.Back.csproj"
+            },
+            "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Model\\Hygie.Model.csproj": {
+              "projectPath": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Model\\Hygie.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -63,7 +120,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.314/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

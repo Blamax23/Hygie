@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Hygie.Front/1.0.0": {
+        "dependencies": {
+          "Hygie.Back": "1.0.0",
+          "Hygie.Model": "1.0.0"
+        },
         "runtime": {
           "Hygie.Front.dll": {}
+        }
+      },
+      "Hygie.Back/1.0.0": {
+        "dependencies": {
+          "Hygie.Model": "1.0.0"
+        },
+        "runtime": {
+          "Hygie.Back.dll": {}
+        }
+      },
+      "Hygie.Model/1.0.0": {
+        "runtime": {
+          "Hygie.Model.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Hygie.Front/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hygie.Back/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hygie.Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
