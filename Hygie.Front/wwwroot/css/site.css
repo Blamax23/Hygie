@@ -20,3 +20,36 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.source-logo {
+    width: 50px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.source-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.source-info {
+    flex: 1; /* Permet à la description de prendre tout l'espace restant */
+    margin-right: 20px; /* Espacement entre la description et l'image */
+}
+
+.source-logo {
+    width: 50px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
