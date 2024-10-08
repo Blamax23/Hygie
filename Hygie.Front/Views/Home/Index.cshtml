@@ -1,5 +1,4 @@
 ﻿@using Hygie.Model;
-
 @model Contenu;
 
 @{
@@ -7,87 +6,112 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Bienvenue</h1>
-    <br />
-    <br />
-    <br />
+    <h1 class="display-4">Prenez le contrôle de votre santé avec Hygie</h1>
+    <p class="lead">Découvrez comment de simples changements peuvent transformer votre bien-être. Avec Hygie, identifiez vos habitudes et recevez des conseils personnalisés pour améliorer votre quotidien.</p>
+    <a href="#quizzes" class="btn btn-primary btn-lg mt-4">Commencez votre évaluation maintenant</a>
+</div>
 
+<div class="container mt-5">
     <div class="row justify-content-center">
-        @foreach(var quiz in Model.Quizzes)
-		{
-			<div class="col-md-4 mb-4">
-				<div class="card shadow-sm">
-					<div class="card-body">
-						<p>@quiz.Category</p>
-					</div>
-				</div>
-			</div>
-		}
+        <div class="col-md-6 text-center">
+            <h2 class="mt-4">Des utilisateurs satisfaits</h2>
+            <p>"Grâce à Hygie, j'ai découvert de nouvelles habitudes saines qui ont réellement changé ma vie. Les quiz sont interactifs et les conseils très pertinents !"</p>
+            <p>- Thomas</p>
+            <p>"Hygie m'a aidé à améliorer mon alimentation et à mieux gérer mon stress. Je le recommande vivement à tous ceux qui veulent prendre soin de leur santé."</p>
+            <p>- Maxime</p>
+        </div>
     </div>
 </div>
 
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10 text-center">
+            <h2 class="mb-4">Choisissez un quiz et commencez votre parcours santé</h2>
+            <div class="row justify-content-center">
+                @foreach (var quiz in Model.Quizzes)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h5>@quiz.Category</h5>
+                                <p>Testez vos connaissances et obtenez des conseils sur votre @quiz.Category.</p>
+                                <a href="" class="btn btn-outline-primary">Faire le quiz</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center mt-5">
+    <h2 class="display-5">Rejoignez une communauté en pleine croissance</h2>
+    <p>2 utilisateurs ont déjà pris un quiz pour améliorer leur santé avec Hygie. Pourquoi pas vous ?</p>
+    <a href="#quizzes" class="btn btn-success btn-lg mt-4">Commencez maintenant</a>
+</div>
+
 <style>
-body {
-    background-color: #f8f9fa; /* Couleur de fond douce */
-    font-family: 'Arial', sans-serif; /* Police moderne */
-    color: #333; /* Couleur de texte sombre */
-    margin: 0; /* Suppression de la marge par défaut */
-    padding: 20px; /* Espacement autour du contenu */
-}
+    body {
+        background-color: #f8f9fa;
+        font-family: 'Arial', sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+    }
 
-.text-center {
-    margin-bottom: 40px; /* Espacement inférieur pour séparer des éléments suivants */
-}
+    h1.display-4 {
+        font-size: 3rem;
+        color: #0056b3;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
 
-h1.display-4 {
-    font-size: 3rem; /* Taille de police large */
-    color: #0056b3; /* Couleur d'accent */
-    margin-bottom: 20px; /* Espacement inférieur */
-    text-transform: uppercase; /* Transforme le texte en majuscules */
-    letter-spacing: 1px; /* Espacement entre les lettres */
-}
+    .lead {
+        font-size: 1.25rem;
+        color: #666;
+        margin-bottom: 20px;
+    }
 
-/* Styles pour les cartes */
-.card {
-    border: none; /* Supprime la bordure par défaut */
-    border-radius: 15px; /* Coins arrondis pour un aspect moderne */
-    background-color: #ffffff; /* Couleur de fond blanche pour les cartes */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Ombre douce et étendue pour la carte */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition plus douce pour l'effet hover */
-    overflow: hidden; /* Masque tout débordement pour les coins arrondis *
-}
+    .btn-primary, .btn-success {
+        padding: 10px 20px;
+        font-size: 1.25rem;
+        border-radius: 50px;
+    }
 
-.card:hover {
-    transform: translateY(-5px); /* Légère translation vers le haut au survol */
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Ombre plus prononcée au survol */
-}
+    .card {
+        border: none;
+        border-radius: 15px;
+        background-color: #ffffff;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+    }
 
-/* Styles pour le contenu des cartes */
-.card-body {
-    padding: 25px; /* Espacement interne pour le contenu */
-    text-align: center; /* Centre le texte à l'intérieur de la carte */
-}
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+        }
 
-.card-body h5 {
-    font-size: 1.5rem; /* Taille de police pour le titre dans les cartes */
-    color: #333; /* Couleur de texte sombre */
-    margin-bottom: 10px; /* Espacement inférieur pour le titre */
-    font-weight: bold; /* Met le titre en gras */
-    text-transform: uppercase; /* Transforme le texte en majuscules */
-}
+    .card-body {
+        padding: 25px;
+        text-align: center;
+    }
 
-.card-body p {
-    font-size: 1rem; /* Taille de police pour le texte dans les cartes */
-    color: #666; /* Couleur de texte pl
+        .card-body h5 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
 
+    .text-center {
+        margin-bottom: 40px;
+    }
 
-/* Styles pour la mise en page des colonnes */
-.row {
-    margin: 0; /* Suppression de la marge par défaut */
-}
-
-.col-md-4 {
-    padding: 0 10px; /* Ajout d'un espacement entre les colonnes */
-}
-
+    .container {
+        padding: 20px;
+    }
 </style>
