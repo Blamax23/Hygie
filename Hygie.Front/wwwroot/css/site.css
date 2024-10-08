@@ -53,3 +53,55 @@ ul {
     width: 50px; /* Ajustez la taille selon vos besoins */
     height: auto;
 }
+
+
+/* Styles de la barre de navigation */
+.navbar {
+    background-color: #f8f9fa; /* Couleur de fond de la barre */
+    border-bottom: 1px solid #dee2e6; /* Bordure en bas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    border-radius: 30px; /* Coins arrondis */
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.container-fluid {
+    max-width: 80%; /* Largeur du menu à 80% */
+    margin: 0 auto; /* Centrer le menu */
+}
+
+/* Styles pour les éléments de navigation */
+.navbar-nav .nav-item .nav-link {
+    color: #343a40; /* Couleur du texte des liens */
+    padding: 10px 15px; /* Espacement autour des liens */
+    font-weight: 500; /* Poids de la police */
+    text-transform: uppercase; /* Mettre en majuscules */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+    /* Effet au survol des liens */
+    .navbar-nav .nav-item .nav-link:hover {
+        background-color: #e2e6ea; /* Couleur de fond au survol */
+        color: #007bff; /* Couleur du texte au survol */
+        border-radius: 5px; /* Coins arrondis */
+    }
+
+/* Style pour la marque de navigation */
+.navbar-brand {
+    color: #007bff; /* Couleur de la marque */
+    font-weight: bold; /* Poids de la police */
+    font-size: 1.5rem; /* Taille de la police */
+}
+
+/* Ajustement pour la barre de navigation sur mobile */
+@media (max-width: 576px) {
+    .navbar-collapse {
+        background-color: #f8f9fa; /* Couleur de fond sur mobile */
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        text-align: center; /* Centrer le texte sur mobile */
+        border-bottom: 1px solid #dee2e6; /* Bordure entre les liens */
+    }
+}
