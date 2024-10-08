@@ -4,167 +4,335 @@
       "category": "Alimentation",
       "questions": [
         {
-          "question": "Quel est le nom de votre entreprise ?",
+          "question": "Combien de fruits et légumes consommes-tu par jour ?",
           "type": "text",
-          "name": "nom"
+          "name": "fruit",
+          "reponses": [
+            {
+              "contenu": "Je ne consomme pas de végétaux 🤢",
+              "isTrue": false
+            },
+            {
+              "contenu": "Une à deux fois",
+              "isTrue": false
+            },
+            {
+              "contenu": "Trois à quatre fois",
+              "isTrue": false
+            },
+            {
+              "contenu": "5 fois voir plus",
+              "isTrue": true
+            }
+          ]
         },
         {
-          "question": "Quel est votre secteur d'activité ?",
+          "question": "Quand tu cuisines, tu as pour habitude d'utiliser : ",
           "type": "text",
-          "name": "secteur"
+          "name": "graisse",
+          "reponses": [
+            {
+              "contenu": "Je ne cuisine jamais.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Du beurre, toujours du beurre",
+              "isTrue": false
+            },
+            {
+              "contenu": "De l'huile",
+              "isTrue": true
+            },
+            {
+              "contenu": "Du beurre et de l'huile",
+              "isTrue": false
+            },
+            {
+              "contenu": "Je n'utilise pas de matière grasse",
+              "isTrue": false
+            }
+          ]
         },
         {
-          "question": "Quel est votre chiffre d'affaire ?",
+          "question": "Combien de temps passes-tu à table en moyenne",
           "type": "text",
-          "name": "chiffre"
+          "name": "temps",
+          "reponses": [
+            {
+              "contenu": "Moins de 5 minutes, le temps c'est de l'argent.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Moins de 20 minutes.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Entre 20 et 30 minutes.",
+              "isTrue": true
+            },
+            {
+              "contenu": "Plus de 30 minutes.",
+              "isTrue": false
+            }
+          ]
         },
         {
-          "question": "Quel est votre effectif ?",
+          "question": "Consommes-tu des sodas et autres boissons sucrées ?",
           "type": "text",
-          "name": "effectif"
+          "name": "boisson",
+          "reponses": [
+            {
+              "contenu": "Je n'en boit pas, ici on boit du AirUp.",
+              "isTrue": true
+            },
+            {
+              "contenu": "1 verre par jour maxime.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Je compte pas... mais beaucoup",
+              "isTrue": false
+            }
+          ]
         },
         {
-          "question": "Quel est votre code postal ?",
+          "question": "Combien de littres d'eau bois-tu par jour ?",
           "type": "text",
-          "name": "code"
+          "name": "eau",
+          "reponses": [
+            {
+              "contenu": "Moins de 0.5L par jour.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Environ 2L par jour.",
+              "isTrue": true
+            },
+            {
+              "contenu": "Entre 0.5L et 1.5L",
+              "isTrue": false
+            }
+          ]
         },
         {
-          "question": "Quel est votre ville ?",
+          "question": "À quelle fréquence manges-tu du poisson ou des fruits de mer ?",
           "type": "text",
-          "name": "ville"
+          "name": "poisson",
+          "reponses": [
+            {
+              "contenu": "Pas de poisson, je m'en fish",
+              "isTrue": false
+            },
+            {
+              "contenu": "Une fois par semaine.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Deux à trois fois par semaine.",
+              "isTrue": true
+            },
+            {
+              "contenu": "Quotidiennement.",
+              "isTrue": false
+            }
+          ]
         },
         {
-          "question": "Quel est votre adresse ?",
+          "question": "Quelle est ta source principale de protéines ?",
           "type": "text",
-          "name": "adresse"
+          "name": "source_proteines",
+          "reponses": [
+            {
+              "contenu": "Principalement de la viande rouge.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Un mélange de viandes, poissons et légumineuses.",
+              "isTrue": true
+            },
+            {
+              "contenu": "Je ne mange pas de protéines.",
+              "isTrue": false
+            }
+          ]
         },
         {
-          "question": "Quel est votre numéro de téléphone ?",
+          "question": "Combien de portions de produits laitiers consommes-tu par jour ?",
           "type": "text",
-          "name": "telephone"
+          "name": "produits_laitiers",
+          "reponses": [
+            {
+              "contenu": "Aucune.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Une portion.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Deux à trois portions.",
+              "isTrue": true
+            },
+            {
+              "contenu": "Plus de trois portions, ce sont mes amis pour la vie !",
+              "isTrue": false
+            }
+          ]
         },
         {
-          "question": "Quel est votre adresse mail ?",
+          "question": "As-tu l'habitude de lire les étiquettes nutritionnelles des aliments ?",
           "type": "text",
-          "name": "mail"
+          "name": "etiquettes_nutritionnelles",
+          "reponses": [
+            {
+              "contenu": "Jamais, je ne m'en préoccupe pas.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Parfois, selon l'aliment.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Toujours, j'y fais attention.",
+              "isTrue": true
+            },
+            {
+              "contenu": "Je ne sais pas lire.",
+              "isTrue": false
+            }
+          ]
         },
         {
-          "question": "Quel est votre site internet ?",
+          "question": "Manges-tu des collations entre les repas ?",
           "type": "text",
-          "name": "site"
+          "name": "collations",
+          "reponses": [
+            {
+              "contenu": "Je ne grignote jamais :) .",
+              "isTrue": false
+            },
+            {
+              "contenu": "Oui, souvent des aliments sucrés.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Oui, principalement des fruits ou des noix (fruits secs).",
+              "isTrue": true
+            }
+          ]
         },
         {
-          "question": "Quel est votre nom ?",
+          "question": "As-tu l'habitude de cuisiner toi-même ?",
           "type": "text",
-          "name": "nom"
+          "name": "cuisine",
+          "reponses": [
+            {
+              "contenu": "Non, je mange surtout des plats préparés.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Parfois, selon mon emploi du temps.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Oui, je cuisine régulièrement.",
+              "isTrue": true
+            }
+          ]
         },
         {
-          "question": "Quel est votre prénom ?",
+          "question": "Quelle est ta consommation d'alcool en moyenne par semaine ?",
           "type": "text",
-          "name": "prenom"
+          "name": "alcool",
+          "reponses": [
+            {
+              "contenu": "Plus de 10 verres.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Entre 5 et 10 verres.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Maximum 10 verres.",
+              "isTrue": true
+            },
+            {
+              "contenu": "Je ne bois pas d'alcool.",
+              "isTrue": true
+            }
+          ]
         },
         {
-          "question": "Quel est votre fonction ?",
+          "question": "Limites-tu ta consommation de sel ?",
           "type": "text",
-          "name": "fonction"
+          "name": "consommation_sel",
+          "reponses": [
+            {
+              "contenu": "Non, je sale beaucoup mes plats.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Je fais attention, mais je salais encore.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Oui, je préfère les plats sans sel ajouté.",
+              "isTrue": true
+            }
+          ]
         },
         {
-          "question": "Quel est votre numéro de téléphone ?",
+          "question": "Combien de charcuterie manges-tu par semaine ?",
           "type": "text",
-          "name": "telephone"
+          "name": "charcuterie",
+          "reponses": [
+            {
+              "contenu": "Plus de 150 g.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Entre 100 et 150 g.",
+              "isTrue": false
+            },
+            {
+              "contenu": "Moins de 150 g.",
+              "isTrue": true
+            },
+            {
+              "contenu": "Je ne mange jamais de charcuterie.",
+              "isTrue": true
+            },
+            {
+              "question": "Quelle est ta consommation de viande (hors volaille) par semaine ?",
+              "type": "text",
+              "name": "viande",
+              "reponses": [
+                {
+                  "contenu": "Plus de 500 g.",
+                  "isTrue": false
+                },
+                {
+                  "contenu": "Entre 300 g et 500 g.",
+                  "isTrue": false
+                },
+                {
+                  "contenu": "Moins de 500 g.",
+                  "isTrue": true
+                },
+                {
+                  "contenu": "Je ne consomme pas de viande.",
+                  "isTrue": true
+                }
+              ]
+            }
+          ]
         },
-        {
-          "question": "Quel est votre adresse mail ?",
-          "type": "text",
-          "name": "mail"
-        },
-        {
-          "question": "Quel est votre nom ?",
-          "type": "text",
-          "name": "nom"
-        }
-      ]
-    },
     {
       "category": "ActiviteSportive",
       "questions": [
         {
-          "question": "Quel est le nom de votre entreprise ?",
-          "type": "text",
-          "name": "nom"
-        },
-        {
-          "question": "Quel est votre secteur d'activité ?",
-          "type": "text",
-          "name": "secteur"
-        },
-        {
-          "question": "Quel est votre chiffre d'affaire ?",
-          "type": "text",
-          "name": "chiffre"
-        },
-        {
-          "question": "Quel est votre effectif ?",
-          "type": "text",
-          "name": "effectif"
-        },
-        {
-          "question": "Quel est votre code postal ?",
-          "type": "text",
-          "name": "code"
-        },
-        {
-          "question": "Quel est votre ville ?",
-          "type": "text",
-          "name": "ville"
-        },
-        {
-          "question": "Quel est votre adresse ?",
-          "type": "text",
-          "name": "adresse"
-        },
-        {
-          "question": "Quel est votre numéro de téléphone ?",
-          "type": "text",
-          "name": "telephone"
-        },
-        {
-          "question": "Quel est votre adresse mail ?",
-          "type": "text",
-          "name": "mail"
-        },
-        {
-          "question": "Quel est votre site internet ?",
-          "type": "text",
-          "name": "site"
-        },
-        {
-          "question": "Quel est votre nom ?",
-          "type": "text",
-          "name": "nom"
-        },
-        {
-          "question": "Quel est votre prénom ?",
-          "type": "text",
-          "name": "prenom"
-        },
-        {
-          "question": "Quel est votre fonction ?",
-          "type": "text",
-          "name": "fonction"
-        },
-        {
-          "question": "Quel est votre numéro de téléphone ?",
-          "type": "text",
-          "name": "telephone"
-        },
-        {
-          "question": "Quel est votre adresse mail ?",
-          "type": "text",
-          "name": "mail"
-        },
-        {
-          "question": "Quel est votre nom ?",
+          "question": "Quel est ce quiz ?",
           "type": "text",
           "name": "nom"
         }
@@ -174,82 +342,7 @@
       "category": "Sommeil",
       "questions": [
         {
-          "question": "Quel est le nom de votre entreprise ?",
-          "type": "text",
-          "name": "nom"
-        },
-        {
-          "question": "Quel est votre secteur d'activité ?",
-          "type": "text",
-          "name": "secteur"
-        },
-        {
-          "question": "Quel est votre chiffre d'affaire ?",
-          "type": "text",
-          "name": "chiffre"
-        },
-        {
-          "question": "Quel est votre effectif ?",
-          "type": "text",
-          "name": "effectif"
-        },
-        {
-          "question": "Quel est votre code postal ?",
-          "type": "text",
-          "name": "code"
-        },
-        {
-          "question": "Quel est votre ville ?",
-          "type": "text",
-          "name": "ville"
-        },
-        {
-          "question": "Quel est votre adresse ?",
-          "type": "text",
-          "name": "adresse"
-        },
-        {
-          "question": "Quel est votre numéro de téléphone ?",
-          "type": "text",
-          "name": "telephone"
-        },
-        {
-          "question": "Quel est votre adresse mail ?",
-          "type": "text",
-          "name": "mail"
-        },
-        {
-          "question": "Quel est votre site internet ?",
-          "type": "text",
-          "name": "site"
-        },
-        {
-          "question": "Quel est votre nom ?",
-          "type": "text",
-          "name": "nom"
-        },
-        {
-          "question": "Quel est votre prénom ?",
-          "type": "text",
-          "name": "prenom"
-        },
-        {
-          "question": "Quel est votre fonction ?",
-          "type": "text",
-          "name": "fonction"
-        },
-        {
-          "question": "Quel est votre numéro de téléphone ?",
-          "type": "text",
-          "name": "telephone"
-        },
-        {
-          "question": "Quel est votre adresse mail ?",
-          "type": "text",
-          "name": "mail"
-        },
-        {
-          "question": "Quel est votre nom ?",
+          "question": "Quel est ce quiz ?",
           "type": "text",
           "name": "nom"
         }
@@ -259,82 +352,7 @@
       "category": "ConsommationAddiction",
       "questions": [
         {
-          "question": "Quel est le nom de votre entreprise ?",
-          "type": "text",
-          "name": "nom"
-        },
-        {
-          "question": "Quel est votre secteur d'activité ?",
-          "type": "text",
-          "name": "secteur"
-        },
-        {
-          "question": "Quel est votre chiffre d'affaire ?",
-          "type": "text",
-          "name": "chiffre"
-        },
-        {
-          "question": "Quel est votre effectif ?",
-          "type": "text",
-          "name": "effectif"
-        },
-        {
-          "question": "Quel est votre code postal ?",
-          "type": "text",
-          "name": "code"
-        },
-        {
-          "question": "Quel est votre ville ?",
-          "type": "text",
-          "name": "ville"
-        },
-        {
-          "question": "Quel est votre adresse ?",
-          "type": "text",
-          "name": "adresse"
-        },
-        {
-          "question": "Quel est votre numéro de téléphone ?",
-          "type": "text",
-          "name": "telephone"
-        },
-        {
-          "question": "Quel est votre adresse mail ?",
-          "type": "text",
-          "name": "mail"
-        },
-        {
-          "question": "Quel est votre site internet ?",
-          "type": "text",
-          "name": "site"
-        },
-        {
-          "question": "Quel est votre nom ?",
-          "type": "text",
-          "name": "nom"
-        },
-        {
-          "question": "Quel est votre prénom ?",
-          "type": "text",
-          "name": "prenom"
-        },
-        {
-          "question": "Quel est votre fonction ?",
-          "type": "text",
-          "name": "fonction"
-        },
-        {
-          "question": "Quel est votre numéro de téléphone ?",
-          "type": "text",
-          "name": "telephone"
-        },
-        {
-          "question": "Quel est votre adresse mail ?",
-          "type": "text",
-          "name": "mail"
-        },
-        {
-          "question": "Quel est votre nom ?",
+          "question": "Quel est ce quiz ?",
           "type": "text",
           "name": "nom"
         }
@@ -344,82 +362,7 @@
       "category": "SanteMentale",
       "questions": [
         {
-          "question": "Quel est le nom de votre entreprise ?",
-          "type": "text",
-          "name": "nom"
-        },
-        {
-          "question": "Quel est votre secteur d'activité ?",
-          "type": "text",
-          "name": "secteur"
-        },
-        {
-          "question": "Quel est votre chiffre d'affaire ?",
-          "type": "text",
-          "name": "chiffre"
-        },
-        {
-          "question": "Quel est votre effectif ?",
-          "type": "text",
-          "name": "effectif"
-        },
-        {
-          "question": "Quel est votre code postal ?",
-          "type": "text",
-          "name": "code"
-        },
-        {
-          "question": "Quel est votre ville ?",
-          "type": "text",
-          "name": "ville"
-        },
-        {
-          "question": "Quel est votre adresse ?",
-          "type": "text",
-          "name": "adresse"
-        },
-        {
-          "question": "Quel est votre numéro de téléphone ?",
-          "type": "text",
-          "name": "telephone"
-        },
-        {
-          "question": "Quel est votre adresse mail ?",
-          "type": "text",
-          "name": "mail"
-        },
-        {
-          "question": "Quel est votre site internet ?",
-          "type": "text",
-          "name": "site"
-        },
-        {
-          "question": "Quel est votre nom ?",
-          "type": "text",
-          "name": "nom"
-        },
-        {
-          "question": "Quel est votre prénom ?",
-          "type": "text",
-          "name": "prenom"
-        },
-        {
-          "question": "Quel est votre fonction ?",
-          "type": "text",
-          "name": "fonction"
-        },
-        {
-          "question": "Quel est votre numéro de téléphone ?",
-          "type": "text",
-          "name": "telephone"
-        },
-        {
-          "question": "Quel est votre adresse mail ?",
-          "type": "text",
-          "name": "mail"
-        },
-        {
-          "question": "Quel est votre nom ?",
+          "question": "Quel est ce quiz ?",
           "type": "text",
           "name": "nom"
         }
@@ -429,82 +372,7 @@
       "category": "Global",
       "questions": [
         {
-          "question": "Quel est le nom de votre entreprise ?",
-          "type": "text",
-          "name": "nom"
-        },
-        {
-          "question": "Quel est votre secteur d'activité ?",
-          "type": "text",
-          "name": "secteur"
-        },
-        {
-          "question": "Quel est votre chiffre d'affaire ?",
-          "type": "text",
-          "name": "chiffre"
-        },
-        {
-          "question": "Quel est votre effectif ?",
-          "type": "text",
-          "name": "effectif"
-        },
-        {
-          "question": "Quel est votre code postal ?",
-          "type": "text",
-          "name": "code"
-        },
-        {
-          "question": "Quel est votre ville ?",
-          "type": "text",
-          "name": "ville"
-        },
-        {
-          "question": "Quel est votre adresse ?",
-          "type": "text",
-          "name": "adresse"
-        },
-        {
-          "question": "Quel est votre numéro de téléphone ?",
-          "type": "text",
-          "name": "telephone"
-        },
-        {
-          "question": "Quel est votre adresse mail ?",
-          "type": "text",
-          "name": "mail"
-        },
-        {
-          "question": "Quel est votre site internet ?",
-          "type": "text",
-          "name": "site"
-        },
-        {
-          "question": "Quel est votre nom ?",
-          "type": "text",
-          "name": "nom"
-        },
-        {
-          "question": "Quel est votre prénom ?",
-          "type": "text",
-          "name": "prenom"
-        },
-        {
-          "question": "Quel est votre fonction ?",
-          "type": "text",
-          "name": "fonction"
-        },
-        {
-          "question": "Quel est votre numéro de téléphone ?",
-          "type": "text",
-          "name": "telephone"
-        },
-        {
-          "question": "Quel est votre adresse mail ?",
-          "type": "text",
-          "name": "mail"
-        },
-        {
-          "question": "Quel est votre nom ?",
+          "question": "Quel est ce quiz ?",
           "type": "text",
           "name": "nom"
         }
