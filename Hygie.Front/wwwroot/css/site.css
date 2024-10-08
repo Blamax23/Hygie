@@ -1,107 +1,183 @@
 html {
-  font-size: 14px;
+    font-size: 16px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    html {
+        font-size: 18px;
+    }
 }
 
 body {
-  margin-bottom: 60px;
-}
-
-h1, h2 {
+    font-family: 'Roboto', sans-serif; /* Police moderne */
+    background-color: #f4f7f6; /* Couleur de fond lÃ©gÃ¨re */
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 
-ul {
-    list-style-type: square;
-    padding-left: 20px;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
-
-.source-logo {
-    width: 50px; /* Ajustez la taille selon vos besoins */
-    height: auto;
-    margin-right: 10px;
-    vertical-align: middle;
-}
-
-
-.source-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.source-info {
-    flex: 1; /* Permet à la description de prendre tout l'espace restant */
-    margin-right: 20px; /* Espacement entre la description et l'image */
-}
-
-.source-logo {
-    width: 50px; /* Ajustez la taille selon vos besoins */
-    height: auto;
-}
-
 
 /* Styles de la barre de navigation */
 .navbar {
-    background-color: #f8f9fa; /* Couleur de fond de la barre */
-    border-bottom: 1px solid #dee2e6; /* Bordure en bas */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
-    border-radius: 30px; /* Coins arrondis */
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
     max-width: 80%;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 20px auto; /* Centrer la navbar */
+    padding: 10px; /* Ajout de padding */
 }
 
-.container-fluid {
-    max-width: 80%; /* Largeur du menu à 80% */
-    margin: 0 auto; /* Centrer le menu */
+.navbar-brand {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
-/* Styles pour les éléments de navigation */
 .navbar-nav .nav-item .nav-link {
-    color: #343a40; /* Couleur du texte des liens */
-    padding: 10px 15px; /* Espacement autour des liens */
-    font-weight: 500; /* Poids de la police */
-    text-transform: uppercase; /* Mettre en majuscules */
-    border-radius: 5px; /* Coins arrondis */
+    color: #343a40;
+    padding: 10px 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
 
-    /* Effet au survol des liens */
     .navbar-nav .nav-item .nav-link:hover {
-        background-color: #e2e6ea; /* Couleur de fond au survol */
-        color: #007bff; /* Couleur du texte au survol */
-        border-radius: 5px; /* Coins arrondis */
+        background-color: #e2e6ea;
+        color: #007bff;
     }
 
-/* Style pour la marque de navigation */
-.navbar-brand {
-    color: #007bff; /* Couleur de la marque */
-    font-weight: bold; /* Poids de la police */
-    font-size: 1.5rem; /* Taille de la police */
+/* Styles des titres */
+h1, h2, h5 {
+    color: #0056b3; /* Accentuez les titres avec une couleur forte */
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Styles de la section "Ã€ propos" */
+.about-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.about-title {
+    font-size: 3rem;
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 40px;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+/* Styles de la liste */
+.container ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+    .container ul li {
+        background-color: #e7f0fa;
+        margin: 10px 0;
+        padding: 15px;
+        border-left: 5px solid #0056b3;
+        border-radius: 5px;
+        font-size: 1.1rem;
+    }
+
+        .container ul li strong {
+            color: #0056b3;
+        }
+
+
+/* Styles pour les sources */
+.source-container {
+    display: flex;
+    align-items: center;
+    background-color: #f4f7f6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.source-logo {
+    width: 60px;
+    height: auto;
+    border-radius: 50%; /* Bordures arrondies */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.source-info {
+    flex: 1;
+}
+
+h6 {
+    font-size: 1.3rem;
+    color: #0056b3;
+    margin-bottom: 5px;
+}
+
+.source-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0;
+}
+
+/* MÃ©dias Responsifs pour petits Ã©crans */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-container {
+        padding: 20px;
+    }
+
+    .source-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .source-logo {
+        margin-bottom: 15px;
+    }
 }
 
 /* Ajustement pour la barre de navigation sur mobile */
 @media (max-width: 576px) {
     .navbar-collapse {
-        background-color: #f8f9fa; /* Couleur de fond sur mobile */
+        background-color: #f8f9fa;
     }
 
     .navbar-nav .nav-item .nav-link {
-        text-align: center; /* Centrer le texte sur mobile */
-        border-bottom: 1px solid #dee2e6; /* Bordure entre les liens */
+        text-align: center;
+        border-bottom: 1px solid #dee2e6;
     }
 }

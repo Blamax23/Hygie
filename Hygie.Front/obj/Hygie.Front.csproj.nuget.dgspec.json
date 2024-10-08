@@ -1,40 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Front\\Hygie.Front.csproj": {}
+    "/Users/williamquesnot/Desktop/Hygie/Hygie.Front/Hygie.Front.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Back\\Hygie.Back.csproj": {
+    "/Users/williamquesnot/Desktop/Hygie/Hygie.Back/Hygie.Back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Back\\Hygie.Back.csproj",
+        "projectUniqueName": "/Users/williamquesnot/Desktop/Hygie/Hygie.Back/Hygie.Back.csproj",
         "projectName": "Hygie.Back",
-        "projectPath": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Back\\Hygie.Back.csproj",
-        "packagesPath": "C:\\Users\\Maxim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Back\\obj\\",
+        "projectPath": "/Users/williamquesnot/Desktop/Hygie/Hygie.Back/Hygie.Back.csproj",
+        "packagesPath": "/Users/williamquesnot/.nuget/packages/",
+        "outputPath": "/Users/williamquesnot/Desktop/Hygie/Hygie.Back/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/williamquesnot/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Model\\Hygie.Model.csproj": {
-                "projectPath": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Model\\Hygie.Model.csproj"
+              "/Users/williamquesnot/Desktop/Hygie/Hygie.Model/Hygie.Model.csproj": {
+                "projectPath": "/Users/williamquesnot/Desktop/Hygie/Hygie.Model/Hygie.Model.csproj"
               }
             }
           }
@@ -43,11 +36,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -69,44 +57,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.314/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Front\\Hygie.Front.csproj": {
+    "/Users/williamquesnot/Desktop/Hygie/Hygie.Front/Hygie.Front.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Front\\Hygie.Front.csproj",
+        "projectUniqueName": "/Users/williamquesnot/Desktop/Hygie/Hygie.Front/Hygie.Front.csproj",
         "projectName": "Hygie.Front",
-        "projectPath": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Front\\Hygie.Front.csproj",
-        "packagesPath": "C:\\Users\\Maxim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Front\\obj\\",
+        "projectPath": "/Users/williamquesnot/Desktop/Hygie/Hygie.Front/Hygie.Front.csproj",
+        "packagesPath": "/Users/williamquesnot/.nuget/packages/",
+        "outputPath": "/Users/williamquesnot/Desktop/Hygie/Hygie.Front/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/williamquesnot/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.314/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Back\\Hygie.Back.csproj": {
-                "projectPath": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Back\\Hygie.Back.csproj"
+              "/Users/williamquesnot/Desktop/Hygie/Hygie.Back/Hygie.Back.csproj": {
+                "projectPath": "/Users/williamquesnot/Desktop/Hygie/Hygie.Back/Hygie.Back.csproj"
               },
-              "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Model\\Hygie.Model.csproj": {
-                "projectPath": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Model\\Hygie.Model.csproj"
+              "/Users/williamquesnot/Desktop/Hygie/Hygie.Model/Hygie.Model.csproj": {
+                "projectPath": "/Users/williamquesnot/Desktop/Hygie/Hygie.Model/Hygie.Model.csproj"
               }
             }
           }
@@ -115,11 +97,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -144,33 +121,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.314/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Model\\Hygie.Model.csproj": {
+    "/Users/williamquesnot/Desktop/Hygie/Hygie.Model/Hygie.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Model\\Hygie.Model.csproj",
+        "projectUniqueName": "/Users/williamquesnot/Desktop/Hygie/Hygie.Model/Hygie.Model.csproj",
         "projectName": "Hygie.Model",
-        "projectPath": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Model\\Hygie.Model.csproj",
-        "packagesPath": "C:\\Users\\Maxim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maxim\\source\\repos\\Hygie\\Hygie.Model\\obj\\",
+        "projectPath": "/Users/williamquesnot/Desktop/Hygie/Hygie.Model/Hygie.Model.csproj",
+        "packagesPath": "/Users/williamquesnot/.nuget/packages/",
+        "outputPath": "/Users/williamquesnot/Desktop/Hygie/Hygie.Model/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/williamquesnot/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -183,11 +153,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -209,7 +174,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.314/RuntimeIdentifierGraph.json"
         }
       }
     }
